@@ -1,0 +1,17 @@
+-   16 single-ended (SE) or eight differential (DIFF) analog input channels. -- Req single-ended
+-   Two analog output channels.
+-   Analog input data in two basic modes – software paced and hardware paced.
+-   Sample rate in software paced 33 S/s to 4000 S/S.
+-   Sample rate in hardware paced is 500 kS/S aggregate. -- Req 500 kS/S aggregate
+-   The input voltage range is software selectable for ±10 V, ±5 V, ±2 V, or ±1 V. -- Req config
+-   The two 16-bit analog outputs can be updated simultaneously at a rate of 250 kS/s.
+-   One output can be updated at a rate of 500 kS/s.
+-   The output range is fixed at ±10 V.
+
+
+What is fixed:
+-   input: 500 kS/S aggregate - single-ended
+-   output: triangular wave
+What is configurable:
+-   input: voltage range ±10 V, ±5 V, ±2 V, or ±1 V
+-   output: frequency and amplitude
